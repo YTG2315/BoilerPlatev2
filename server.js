@@ -2,7 +2,7 @@
 const express    = require('express');
 const bodyParser = require('body-parser');
 const fccTesting = require('./freeCodeCamp/fcctesting.js');
-const bcrypt     = require('bcrypt');
+const bcrypt     = require('bcryptjs');
 const app        = express();
 
 app.get('/', (req, res) => {
